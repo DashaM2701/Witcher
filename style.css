@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni:wght@700&family=Open+Sans:wght@300..800&display=swap");
+/* font-family: "Open Sans", sans-serif;
+font-family: "Bebas Neue", sans-serif;
+  font-weight: 400; */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ffff;
+  text-transform: uppercase;
+}
+/* __________________HEADER___________________ */
+
+.hide {
+  display: none !important;
+}
+.header {
+  z-index: 100;
+  background-color: transparent;
+  width: 100%;
+}
+.header_nav a:hover {
+  opacity: 0.7;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 20px;
+  width: 100px;
+}
+
+.header_nav ul {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav a {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffff;
+  transition: opacity 0.3s;
+}
+
+.header_list {
+  width: 50px;
+  height: 17px;
+  border: none;
+  background-color: transparent;
+  color: #ffff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.option {
+  background-color: #010101;
+}
+
+.header_icons {
+  display: flex;
+  justify-content: space-between;
+
+  height: 30px;
+  gap: 25px;
+}
+
+.header_icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.header_icon {
+}
+
+/* __________________MAIN___________________ */
+
+.main {
+}
+
+.wellcome {
+  background-image: url(/img/bg\ _image.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 120vh;
+  margin-top: -110px;
+}
+.main_title img {
+  width: 400px;
+  position: absolute;
+  top: 350px;
+  left: 310px;
+}
+
+.wellcome p {
+  bottom: 10px;
+  left: 600px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+/* __________________STORY___________________ */
+
+.story {
+  background-image: url(/img/bg_main1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.story .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heards-or-stone {
+  margin-top: 300px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  width: 250px;
+  color: #ffff;
+  transition: font-size 0.3s;
+}
+
+.heards-or-stone:hover {
+  font-size: 40px;
+}
+
+.heards-or-stone span {
+  color: #ed1a23;
+}
+
+.witcher-3 {
+  margin-top: 70px;
+
+  width: 690px;
+}
+.witcher-3 h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  color: #ffff;
+}
+.witcher-3 .desc-story {
+  font-family: "Bebas Neue", sans-serif;
+
+  height: fit-content;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #ed1a23;
+  white-space: nowrap;
+
+  text-align: center;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.witcher-3 p {
+  height: 480px;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  overflow-y: auto;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.line {
+  margin-bottom: 16px;
+  text-align: center;
+  width: 690px;
+  height: 1px;
+  background-color: #ffff;
+}
+
+.wildhunt-blood {
+  margin-top: 300px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  width: 230px;
+  color: #ffff;
+  transition: font-size 0.3s;
+}
+.wildhunt-blood:hover {
+  font-size: 40px;
+}
+
+.wildhunt-blood span {
+  color: #ed1a23;
+}
+/* __________________CITY___________________ */
+
+.city {
+  padding: 50px 0;
+  background-image: url(/img/bg_main_sity.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.city .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_city span {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #ed1a23;
+}
+.title_city h2 {
+  font-family: "Bebas Neue", sans-serif;
+
+  font-size: 80px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ffff;
+}
+
+.title_city p {
+  width: 480px;
+
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+.line {
+}
+
+.wrapper-slider {
+  margin-top: 122px;
+
+  width: 483px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.wrapper-slider img {
+  object-fit: contain;
+  height: 300px;
+}
+#img_size1 {
+  width: 367px;
+  height: 450px;
+}
+#img_size2 {
+  width: 305px;
+  height: 428px;
+}
+#img_size3 {
+  width: 270px;
+  height: 400px;
+}
+.img_slider1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 367px;
+  height: 450px;
+  object-fit: contain;
+}
+.img_slider2 {
+  position: absolute;
+  left: 60px;
+  z-index: 2;
+  width: 305px;
+  height: 428px;
+  object-fit: contain;
+}
+.img_slider3 {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+
+  object-fit: contain;
+}
+.line_down {
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  width: 690px;
+  height: 1px;
+  background-color: #ffff;
+}
+.dots_item.dots_item--active {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.dots_nav {
+  z-index: 4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  padding-right: 100px;
+}
+
+.dots_item {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.switch {
+  position: absolute;
+  top: 200px;
+  right: 50px;
+}
+
+/* __________________GEROES___________________ */
+
+.geroes {
+  background-image: url(/img/bg_main_geroes.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.title_wrapper {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.title_wrapper h3 {
+  text-align: left;
+}
+.box_title {
+  margin-bottom: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 400;
+  position: relative;
+  width: 500px;
+}
+.title_wrapper span {
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  color: #ed1a23;
+}
+
+.title_wrapper p {
+  width: 500px;
+  font-size: 24px;
+}
+
+.img_wrapper {
+  height: 100vh;
+}
+
+.img_wrapper img {
+  margin-top: 55px;
+  object-fit: cover;
+
+  width: 690px;
+}
+
+.dots_nav_geroes {
+  transform: translateY(-50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.signs {
+  background-image: url(/img/bg\ image\ sign.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.signs h1 {
+  margin-top: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  color: #ed1a23;
+}
+
+.kolo img {
+  width: 750px;
+}
+
+.kolo {
+  margin: 0 auto;
+  margin-top: 87px;
+  margin-bottom: 50px;
+}
+
+.system_req {
+  background-image: url(/img/bg\ image\ 4.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.system_req .container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "decsr"
+    "title"
+    "table";
+}
+
+.desc {
+  display: block;
+  margin-top: 100px;
+  grid-area: decsr;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.title_req {
+  grid-area: title;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  margin-bottom: 85px;
+}
+
+.treb {
+  margin-bottom: 50px;
+  border: 1px solid #979797;
+  grid-area: table;
+  width: 570px;
+  border-collapse: collapse;
+}
+
+.treb span {
+  font-weight: 700;
+  font-size: 20px;
+}
+.treb th {
+  color: #ed1a23;
+  padding: 8px;
+  border-bottom: 1px solid #979797;
+}
+.treb td {
+  padding: 8px;
+  vertical-align: top;
+  border: 1px solid #979797;
+}
